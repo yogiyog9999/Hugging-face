@@ -3,7 +3,7 @@ requests==2.31.0
 beautifulsoup4==4.12.2
 python-dotenv==1.0.0
 flask-cors==5.0.0
-transformers==4.31.0
-torch==2.1.0
-
-
+transformers>=4.0.0
+torch==2.1.0 
+numpy<2
+huggingface_hub>=0.15.0
